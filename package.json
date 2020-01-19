@@ -1,5 +1,5 @@
 {
-  "name": "@brenopolanski/dracula-theme-ark-wallet",
+  "name": "@breno.polanski/dracula-theme-ark-wallet",
   "version": "0.1.0",
   "description": "A dark theme for ARK Desktop Wallet",
   "main": "src/index.js",
