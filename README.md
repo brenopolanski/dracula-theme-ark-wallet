@@ -23,6 +23,10 @@ This theme is maintained by the following person(s) and a bunch of [awesome cont
 
 If you want to help, please read the [Contributing](./CONTRIBUTING.md) guide.
 
+## Credits
+
+- [Dracula Theme](https://github.com/dracula/dracula-theme#dracula-theme)
+
 ## License
 
 [MIT License](https://brenopolanski.mit-license.org/) © Breno Polanski
