@@ -1,7 +1,7 @@
 module.exports = {
   getThemes() {
     return {
-      'dark-dracula': {
+      'dracula': {
         cssPath: 'styles/dracula-theme.css',
         darkMode: true
       }

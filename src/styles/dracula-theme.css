@@ -1,19 +1,23 @@
-.theme-dark-dracula {
+.theme-dracula {
   --theme-page: #282a36;
   --theme-page-text: #f8f8f2;
   --theme-page-text-light: #6272a4;
   --theme-page-instructions-text: #f8f8f2;
   --theme-page-instructions-background: rgba(255, 255, 255, .2);
   --theme-modal: #282a36;
+
   --theme-intro-gradient-1: rgba(45, 47, 56, 0);
   --theme-intro-gradient-2: rgba(45, 47, 56, .95);
+
   --theme-header-text: #50fa7b;
   --theme-caption-text: #d7d9e7;
   --theme-caption-read: #787fa3;
   --theme-announcements-gradient-1: rgba(45, 47, 56, 0);
   --theme-announcements-gradient-2: rgba(45, 47, 56, .95);
+
   --theme-line-separator: #44475a;
   --theme-wallet-overview-border: #232425;
+
   --theme-table-row-hover: #44475a;
   --theme-transaction-sent: #4b3944;
   --theme-transaction-sent-arrow: #e95c51;
@@ -28,10 +32,12 @@
   --theme-transaction-detail-gradient1: #46466b;
   --theme-transaction-detail-gradient2: #343a53;
   --theme-transaction-detail-arrow: #4d536c;
+
   --theme-wallet-new-selected: #787fa3;
   --theme-wallet-new-unselected: #585c6f;
   --theme-wallet-sign-verify-message-text: #585c6f;
   --theme-wallet-grid-shadow: 0 5px 30px rgba(0, 0, 0, .15);
+
   --theme-feature: #282a36;
   --theme-feature-item-text: #6272a4;
   --theme-feature-item-hover: #44475a;
@@ -39,13 +45,18 @@
   --theme-feature-item-alternative-text: #5d6483;
   --theme-feature-item-selected: #44475a;
   --theme-feature-item-selected-text: #8be9fd;
-  --theme-feature-item-indicator: #ff5555;
+  --theme-feature-item-indicator: #8be9fd;
+
   --theme-secondary-feature: #2e313a;
+
   --theme-button-special-choice: #ff5555;
+
   --theme-heading-background: #282a36;
   --theme-heading-text: #50fa7b;
+
   --theme-chart-price: #f8f8f2;
   --theme-chart-background: #373a43;
+
   --theme-button: #383c4d;
   --theme-button-active: #c5dbed;
   --theme-button-text: #919eca;
@@ -67,8 +78,10 @@
   --theme-input-field-border: #585c6f;
   --theme-modal-footer-button: #e7d28e;
   --theme-modal-footer-button-text: #b3a36f;
+
   --theme-explanation-background: #363844;
   --theme-explanation-text: #f8f8f2;
+
   --theme-settings: #343956;
   --theme-settings-hover: #3a4060;
   --theme-settings-sub: #3f4565;
@@ -79,16 +92,54 @@
   --theme-settings-text-hover: #b3bbe8;
   --theme-settings-switch: #414767;
   --theme-settings-control-title: #dae1e7;
+
   --theme-voting-banner-background: #363844;
   --theme-voting-banner-text: #707698;
   --theme-voting-banner-button: #23252c;
   --theme-voting-banner-button-hover: #2a2b31;
   --theme-voting-banner-button-text: #787fa3;
   --theme-voting-banner-button-text-hover: #787fa3;
+
   --theme-fee-gradient-start: var(--theme-modal);
-  --theme-fee-gradient-end: rgba(0, 124, 255, .2);
+  --theme-fee-gradient-end: rgba(0, 124, 255, 0.2);
   --theme-fee-handler-outside: var(--theme-button-text);
   --theme-fee-handler-inside: var(--theme-modal);
   --theme-fee-range-track: var(--theme-page-text-light);
   --theme-fee-range-track-active: var(--theme-button-text);
+}
+
+#app.theme-dracula {
+  --theme-error: rgb(255, 107, 136) !important;
+}
+
+.theme-dracula .text-blue,
+.theme-dracula a,
+.theme-dracula .WalletButton__create .rounded-full,
+.theme-dracula .WalletButton__import .rounded-full,
+.theme-dracula .WalletButton__load-ledger-wallets .rounded-full {
+  color: #8be9fd !important;
+}
+
+.theme-dracula .WalletGrid__wallet__name {
+  color: #50fa7b !important;
+}
+
+.theme-dracula .a:hover {
+  color: #73ccff !important;
+}
+
+.theme-dracula .text-green {
+  color: #50fa7b !important;
+}
+
+.theme-dracula .text-red {
+  color: #ff5555 !important;
+}
+
+.theme-dracula .text-orange-dark {
+  color: #ffb86c !important;
+}
+
+.theme-dracula .modal-backdrop {
+  background-color: rgba(255, 255, 255, 0.3);
 }
