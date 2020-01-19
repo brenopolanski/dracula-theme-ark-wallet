@@ -1,0 +1,40 @@
+{
+  "name": "@brenopolanski/dracula-theme-ark-wallet",
+  "version": "0.1.0",
+  "description": "A dark theme for ARK Desktop Wallet",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brenopolanski/dracula-theme-ark-wallet.git"
+  },
+  "desktop-wallet": {
+    "title": "Dracula Theme",
+    "logo": "https://raw.githubusercontent.com/brenopolanski/dracula-theme-ark-wallet/master/logo.png",
+    "categories": [
+      "theme"
+    ],
+    "permissions": [
+      "THEMES"
+    ],
+    "minVersion": "2.6"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "dracula",
+    "@arkecosystem",
+    "desktop-wallet",
+    "plugin"
+  ],
+  "author": {
+    "name": "Breno Polanski",
+    "email": "breno.polanski@gmail.com",
+    "web": "http://brenopolanski.com",
+    "twitter": "brenopolanski"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brenopolanski/dracula-theme-ark-wallet/issues"
+  },
+  "homepage": "https://github.com/brenopolanski/dracula-theme-ark-wallet#readme"
+}
